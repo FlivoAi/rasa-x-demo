@@ -1,3 +1,4 @@
+
 intents:
   - greet
   - goodbye
@@ -8,33 +9,24 @@ intents:
   - bot_challenge
 
 responses:
-
   utter_greet:
-    - text: "Hey! How are you?"
+  - text: "Hey! How are you?"
 
   utter_cheer_up:
-    - text: "I'm sad to hear that!"
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-    - text: "Did that help you?"
+  - text: "Did that help you?"
 
   utter_happy:
-    - text: "Great, carry on!"
+  - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
-
-  utter_open_hours:
-    - text: "We are open from 9Am to 5PM Monday through Friday"
-
-  utter_account_faq:
-    - text: "If you have questions regarding your account, please have a look at our account FAQs first http://bank.org/account/faq"
-
-  utter_check_balance:
-    - text: "You can check the balance of your account in the finance overview of our app."
+  - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Rasa."
 
 actions:
   - action_suggest_replies
