@@ -17,6 +17,8 @@ nlu:
     - good afternoon
     - Hii
     - Hello
+    - Hi
+    - hii
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,6 +32,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - bte
 - intent: affirm
   examples: |
     - yes
@@ -41,6 +44,7 @@ nlu:
     - what
     - i am asking
     - ok
+    - thats good
 - intent: deny
   examples: |
     - no
@@ -91,6 +95,9 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     - What you can do?
+    - are you bot
+    - are you human
+    - are you humn
 - intent: inquire_open_hours
   examples: |
     - When are you open?
